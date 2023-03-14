@@ -1,0 +1,50 @@
+
+
+:root {
+    --primary-color: brown;
+    --secondary-color: blue;
+    --accent1-color: skyblue;
+    --accent2-color: white;
+  
+    --heading-font: '______', serif;
+    --paragraph-font: '______', serif;
+  
+    --nav-background-color: white;
+    --nav-link-color: blue;
+    --nav-hover-link-color: blue;
+    --nav-hover-background-color:skyblue ;
+  }
+header {
+  background-color:var(--accent1-color);
+}
+h1 h2 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+
+ }
+header nav {
+  float: right;
+  color:var(--secondary-color)
+}
+div img {
+  float: right;
+  width: 500px
+}
+article img {
+  position: relative;
+  width: 200px;
+}
+footer {
+  float: right;
+  margin-top: 1em;
+  border-top: 1px solid #000;
+  
+}
+/* Class Selectors */
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
+}
