@@ -16,13 +16,16 @@
   }
 header {
   background-color:var(--accent1-color);
+  grid-row: 1/2;
 }
 h1 h2 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
+    text-align: center;
 
  }
 header nav {
+  display: flex;
   float: right;
   color:var(--secondary-color)
 }
@@ -47,4 +50,31 @@ footer {
   padding: 1rem;
   background-color: #ddd;
   color: #000;
+}
+figure {
+  border: thin #c0c0c0 solid;
+  display: inline-flex;
+  flex-flow: row;
+  padding: 5px;
+  max-width: 220px;
+  margin: auto;
+  gap: 5px;
+}
+
+img {
+  max-width: 180px;
+  max-height: 150px;
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+  
+}
+section img {
+  display: inline-block;
+
 }
