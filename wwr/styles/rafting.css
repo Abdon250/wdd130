@@ -15,9 +15,13 @@
     --nav-hover-background-color:skyblue ;
   }
 header {
+  display:grid;
   background-color:var(--accent1-color);
   grid-row: 1/2;
+  grid-template-columns: auto auto;
+
 }
+
 h1 h2 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
@@ -26,9 +30,13 @@ h1 h2 {
  }
 header nav {
   display: flex;
-  float: right;
-  color:var(--secondary-color)
+  flex-direction: row;
+  color:var(--secondary-color);
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
 }
+
 div img {
   float: right;
   width: 500px
