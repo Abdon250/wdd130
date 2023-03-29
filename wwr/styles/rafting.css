@@ -122,4 +122,12 @@ footer {
   border-top: 1px solid #ccc;
   float: left;
 }
-
+.radio {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.radio__input {
+  display: none;
+}

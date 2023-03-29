@@ -36,12 +36,24 @@
           <input type="feedback" id="name" name="Name">
           <label for="feedback">Email:</label>
           <input type="feedback" id="email" name="Email">
-          <label for="Purpose">What purpose of this message?</label>
-          <select id="purpose" name="purpose">
-            <option value="">General Inquiry</option>
-            <option value="">Resrvation Questions</option>
-            <option value="">Website suggestion</option>
-          </select>
+          <label for="Purpose" class="radio">What purpose of this message?</label>
+          <div class="radio-group">
+            <label>
+              <input type="radio" value="General Inquiry" name="purpose">
+              General Inquiry
+              <span></span>
+            </label>
+            <label>
+              <input type="radio" value="Resrvation Questions" name="purpose">
+              Resrvation Questions
+              <span></span>
+            </label>
+            <label>
+              <input type="radio" value="Website suggestion" name="purpose">
+              Website suggestion
+              <span></span>
+            </label>
+          </div>
           <label for="feedback">Message:</label>
           <textarea id="Message" name="Message" rows="5" placeholder=""></textarea>
           <label for="subscribe">Please subscribe me to the monthly newsletter</label>
