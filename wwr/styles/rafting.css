@@ -89,7 +89,7 @@ form {
   width: 500px;
   margin: 0 auto;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 0.5erm;
+  border-radius: 0.5rem;
   background-color:#c0c0c0;
   display: grid;
 }
